@@ -1,12 +1,11 @@
-import Head from "next/head";
+import { GlobalStyle } from "../../styles/global";
 import Main from '../pages/Main';
 
-type Props = {
-  title: string;
-};
-
-export default function Home({ title = "React Avançado" }: Props) {
+export default function Home() {
   return (
-    <Main />
-    );
+    <>
+      <GlobalStyle />
+      <Main />
+    </>
+  );
 }
