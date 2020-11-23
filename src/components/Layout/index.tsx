@@ -11,7 +11,12 @@ const Layout: React.FC = ({ children }) => {
       <S.Main>
         <S.Text>In Progress...</S.Text>
         <S.LogoContainer>
-          <S.Logo src="assets/logoExpand.png" />
+          <S.Logo
+            src="assets/logoExpand.png"
+            alt="Picture of the author"
+            width={500}
+            height={500}
+          />
         </S.LogoContainer>
         {children}
       </S.Main>
