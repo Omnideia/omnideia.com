@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Image from 'next/image';
 
 export const Container = styled.div`
   width: 100%;
@@ -14,3 +15,9 @@ export const Main = styled.main`
   max-width: 1200px;
   margin: 0 auto;
 `;
+
+export const Text = styled.h2``;
+
+export const LogoContainer = styled.div``;
+
+export const Logo = styled(Image)``;
